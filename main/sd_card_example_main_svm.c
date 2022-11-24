@@ -15,7 +15,7 @@
 #include "sdmmc_cmd.h"
 #include "driver/sdmmc_host.h"
 
-
+// my own head file
 #include "svm.h"
 #include "sd.h"
 
@@ -34,7 +34,6 @@ void app_main(void)
 //  initialize sd card and mount file system
     SD_initial(MOUNT_POINT, card);
 
-	
 
 //**********************Part 2. read 2.text and do svm predict**************
     const char *model_file_name = MOUNT_POINT"/2.TXT";
