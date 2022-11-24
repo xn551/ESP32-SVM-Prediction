@@ -1,10 +1,11 @@
-/* SD card and FAT filesystem example.
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
+/************** Do SVM Prediciton in ESP32 **************/ 
+//
+//    Using IDF 4.4, 4.3 may be also support.
+//    Using SD card and FAT filesystem.
+//    Compatalble with libsvm.
+//    Support OV2640 camera in the future.
+//    
+********************************************************/
 
 // This example uses SDMMC peripheral to communicate with SD card.
 
